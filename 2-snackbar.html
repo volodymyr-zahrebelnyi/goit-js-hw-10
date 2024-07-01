@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-c2d76240.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-34891a23.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+  </head>
+  <body>
+    <a class="home-link" href="./index.html">Home</a>
+    <div class="container">
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input class="input-delay" type="number" name="delay" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <div class="input-wrap">
+            <label class="label-fulfield">
+              <input type="radio" name="state" value="fulfilled" required />
+              <span class="label-span">Fulfilled</span>
+            </label>
+            <label class="label-reject">
+              <input type="radio" name="state" value="rejected" required />
+              <span class="label-span">Rejected</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <button class="form-button" type="submit">Create notification</button>
+      </form>
+    </div>
+
+    
+  </body>
+</html>
