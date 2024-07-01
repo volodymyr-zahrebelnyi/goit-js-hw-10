@@ -1,0 +1,46 @@
+.container {
+  max-width: 355px;
+  margin: 0 auto;
+  margin: 36px 156px;
+}
+
+.timerInput {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+.field {
+  text-align: center;
+}
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn-start {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #989898;
+  display: block;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #cfcfcf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
